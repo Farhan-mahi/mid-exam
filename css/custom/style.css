@@ -1,0 +1,76 @@
+/* container bottomstyle */
+.container-btm {
+	margin-bottom: 50px;
+}
+/* heading section coloring */
+.heading-color {
+	background: #effeef;
+}
+/* navbar  */
+/* logo-resize style */
+.logo-resize {
+	width: 175px;
+	height: 50px;
+}
+/* navs style */
+.nav-item a {
+	color: black;
+	font-weight: bold;
+}
+.nav-top {
+	margin-top: 7px;
+	margin-right: 20px;
+}
+.carousel-padding {
+	padding: 30px;
+}
+
+/* carousel sliding image and informatio */
+/* span h1 tag */
+.heading-info-style {
+	color: #21b573;
+}
+/* heading font style */
+.heading-font-style {
+	font-size: 40px;
+	font-weight: bolder;
+}
+/* opacity control */
+.paragraph-opacity {
+	color: rgba(0, 0, 0, 0.596);
+}
+
+.text-red-info {
+	color: #fd511a;
+}
+
+/* showing information section */
+.cate-info {
+	background: #f8fffb;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+.cate-info:hover {
+	background: white;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 10px 10px 30px lightgray;
+}
+.cate-logo-resize {
+	height: 70px;
+}
+.cate-box {
+	padding: 10px;
+	text-align: center;
+}
+
+/* button syyle */
+.btn-forall {
+	background: #21b573;
+	color: #fff;
+	border: none;
+	border-radius: 25px;
+	padding: 9px 25px;
+	cursor: pointer;
+}
