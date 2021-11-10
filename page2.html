@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/bootstrapcss/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/custom/style.css" />
+		<title>E-SCHOOL</title>
+	</head>
+
+	<body>
+		<header class="heading-color mb-4">
+			<!-- navbar -->
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<!-- Logo Here -->
+					<a class="navbar-brand" href="/"><img class="logo-resize" src="icon/Logo.png" alt="" /></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- Navlinks Here -->
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link nav-top" href="#">Books <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-top" href="#courses">Courses</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-top" href="#">Others</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-top" href="#">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><button class="btn-forall">Sign In</button></a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+                <div class="salary-area">
+                    <form onsubmit="showResult()">
+                        <input type="text" id="name" placeholder="Name" required />
+                        <input type="number" id="age" placeholder="Age" min="0" required />
+                        <input type="number" id="total" placeholder="Total Salary" min="0" required />
+                        <button type="Submit">Show Bonus</button>
+                    </form>
+                    <div class="show-result text-center">
+                        <h4 id="result"></h4>
+                    </div>
+                    <br><br>
+                </div>
+			</div>
+            <script src='./js/function.js'></script>
+	</body>
+</html>
